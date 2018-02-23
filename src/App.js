@@ -85,7 +85,7 @@ class App extends Component {
         .events
         .update(this.state.events.etag)
       const state = this.state;
-      state.events.items = res.data.events;
+      state.events.items = res.data.events || [];
       state.events.etag = res.headers.etag || res.data.etag;
       state.events.updated_at = new Date();
       this.setState(state)
