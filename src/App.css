@@ -1,0 +1,15 @@
+.flex-horizontal {
+    flex-direction: column;
+}
+
+.card .title{
+    max-width: 500px;
+}
+
+.navbar {
+    margin-bottom: 10px; 
+}
+
+.is-bold{
+    font-weight: 700;
+}
