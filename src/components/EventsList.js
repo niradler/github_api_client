@@ -18,8 +18,8 @@ class EventsList extends Component {
         {this
           .props
           .list
-          .map((i) => (
-            <div className="">
+          .map((i,index) => (
+            <div key={index + 'event'} className="">
 
               <div className="card">
                 <div className="card-content">
