@@ -2,4 +2,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Github Client
 
-(Demo)[https://niradler.github.io/github_api_client/build/]
+[Demo](https://niradler.github.io/github_api_client/build/)
